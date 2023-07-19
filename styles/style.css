@@ -1,0 +1,132 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+  }
+
+
+  /* navigation section start */
+
+
+.navigation{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+    margin: 0 auto;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.gamer, .y-t, .nav-log , .follow{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+img{
+    width: 33.916px;
+    height: 24px;
+   flex-shrink: 0;
+}
+.nav-log{
+  gap: 15px;
+}
+.follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    margin: 10px;
+}
+.p1{
+    color: #3C354F;
+   text-align: center;
+   font-size: 18px;
+   font-weight: 500;
+}
+.g{
+    color: green;
+}
+.nav-title{
+    color: #0B0223;
+    font-size: 20px;
+}
+.btn{
+    display: flex;
+    gap: 13px;
+}
+/* navigation section end */
+
+/* contianer 1 started */
+
+
+.container-1{
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin: 0 auto;
+    min-height: 45px;
+}
+.container-1-title{
+    width: 50%;
+    padding-top: 55px;
+}
+.play-like-the{
+    color: #0b0223;
+    font-size: 48px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.container-1-img{
+    width: 50%;
+}
+.group-18{
+    width: 300px;
+    height: 300px;
+}
+.goat{
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    color: #F948B2;
+}
+.con-1{
+    font-size: .7rem;
+    color: #534C64;
+}
+.sign{
+    border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  padding: 10px 28px;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.go-rogue{
+    border-radius: 48px;
+    background: #4ec5f7;
+    padding: 10px 28px;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.container-2{
+    display: flex;
+    justify-content: space-around;
+}
