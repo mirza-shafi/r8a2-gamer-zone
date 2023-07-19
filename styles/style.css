@@ -394,3 +394,18 @@ img{
 .ending{
     height: 88.4%;
   }
+
+
+
+/* for mobile screen */
+
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .gamer{
+      flex-direction: column;
+      padding: 30px;
+    }
+    .nav-img {
+      width: 30%;
+      margin: 0 auto;
+    }
