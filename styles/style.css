@@ -318,3 +318,79 @@ img{
     font-size: 13px;
     font-weight: 600;
   }
+
+/* container 4 done */
+
+
+
+/* footer section started */
+
+
+.footer-container{
+    background-color: #0B0223;
+}
+.part-1{
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+.footer-container-logo{
+    display: flex;
+    justify-content: center;
+}
+.gg{
+    color: green;
+}
+.amar{
+    color: white;
+}
+.footer-container-logo p{
+    font-size: 25px;
+}
+.menu-of-footer{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 40px;
+  }
+  .menu-of-footer a {
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+  }
+  .logo-of-footer{
+    flex-wrap: wrap;
+    padding-left: 120px;
+    padding-right: 100px;
+    justify-content: center;
+  }
+  .logo-of-footer span {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .footer-subject{
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 40px;
+    align-items: center;
+  }
+
+  .footer-subject a {
+    margin-top: 20px;
+    margin-right: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+  }
+  .footer-subject , .cookie{
+    padding-right: 35px;
+   }
+.copy-write{
+    text-align: center;
+    font-size: 12px;
+}
+.ending{
+    height: 88.4%;
+  }
