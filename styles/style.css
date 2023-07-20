@@ -49,7 +49,7 @@ img{
     background: rgba(11, 2, 35, 0.10);
     margin: 10px;
 }
-.p1{
+.con2-p{
     color: #3C354F;
    text-align: center;
    font-size: 18px;
@@ -198,7 +198,7 @@ img{
 .con2-title span{
     color: #8758f1;
 }
-.container-2 .global {
+.container-2 {
     padding-top: 15px;
     padding-bottom: 30px;
     color: #534c64;
@@ -261,17 +261,24 @@ img{
     font-weight: 700;
     width: 450px;
     margin-bottom: 15px;
+    text-align: right;
   }
-  
-.con3-download{
-    color: #8758f1;
+  .global{
+    width: 450px;
+    color: #534c64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 450;
+  }
+.con3-paly{
+    color: #576265;
   }
 
   /* container 4 started */
 
 .container-4{
-    background: linear-gradient(90deg,rgba(255, 66, 165, 0.03) 0%,rgba(255, 66, 165, 0.03) 100%
-    );
+    background: linear-gradient(90deg,rgba(255, 66, 165, 0.03) 0%,rgba(255, 66, 165, 0.03) 100%);
   }
 
 .first{
@@ -292,7 +299,7 @@ img{
     padding: 22px;
     
   }
-  .con3-img{
+  #x{
     display: flex;
     align-items: center;
     padding: 10px;
@@ -304,21 +311,24 @@ img{
     height: 50px;
     margin: 0 auto;
   }
-  .con3-img:hover {
+  #x:hover {
     border: 2px solid #ff42a5;
     cursor: pointer;
   }
   
-  .con3-img img {
-    width: 40px;
-    margin-right: 10px;
-  }
-  .con3-img p {
+
+  #x p {
     color: #0b0223;
     font-size: 13px;
     font-weight: 600;
   }
 
+
+.toggle-1, .toggle-2,.toggle-3, .toggle-4, .toggle-5, .toggle-6, .toggle-7, .toggle-8, .toggle-9{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 /* container 4 done */
 
 
@@ -348,34 +358,34 @@ img{
     font-size: 25px;
 }
 .menu-of-footer{
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 60px;
+
   }
   .menu-of-footer a {
-    margin-top: 20px;
-    font-size: 13px;
-    color: white;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
   }
-  .logo-of-footer{
-    flex-wrap: wrap;
-    padding-left: 120px;
-    padding-right: 100px;
-    justify-content: center;
-  }
-  .logo-of-footer span {
-    margin-top: 20px;
-    font-size: 25px;
-  }
-
   .footer-subject{
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    padding-left: 50px;
-    padding-right: 40px;
-    align-items: center;
+    padding: 10px;
+    gap: 10px;
   }
+.logo-of-footer{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
   .footer-subject a {
     margin-top: 20px;
@@ -383,29 +393,21 @@ img{
     text-align: center;
     font-size: 12px;
     color: white;
+    text-decoration: none;
   }
-  .footer-subject , .cookie{
+.cookie{
     padding-right: 35px;
    }
+
 .copy-write{
-    text-align: center;
-    font-size: 12px;
+  color: rgba(255, 255, 255, 0.60);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .ending{
     height: 88.4%;
   }
-
-
-
-/* for mobile screen */
-
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
-    .gamer{
-      flex-direction: column;
-      padding: 30px;
-    }
-    .nav-img {
-      width: 30%;
-      margin: 0 auto;
-    }
