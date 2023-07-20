@@ -411,3 +411,27 @@ img{
 .ending{
     height: 88.4%;
   }
+
+
+@media screen and (max-width: 576px) {
+    .nav-container, .nav-log{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .container-1{
+      display: flex;
+      flex-direction: column;
+    }
+    .online-img{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    } 
+    .container-2{
+      align-items: center;
+    }
+    .container-3{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+}
